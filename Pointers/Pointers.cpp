@@ -18,7 +18,7 @@ int main()		//start main function
 	string usersName;		//usersName string
 	string* rusersName = &usersName;		//declare pointer for usersName
 
-	cout << "---Online Banking---\n";		//start program
+	cout << "---Online Banking---\n";		//start program 
 	cout << " What's your name? \n";		//ask question
 	cin >> *rusersName;		//get imput into rusersName
 	cout << "\n Welcome, " << usersName << ".\n";		//welcome to account
